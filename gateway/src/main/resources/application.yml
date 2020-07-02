@@ -1,0 +1,47 @@
+server:
+  port: 8083
+  servlet:
+    session:
+      cookie:
+        name: KSESSION
+ 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka 
+      
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      routes:
+      - id: oauthservice
+        uri: lb://OAUTH-SERVICE
+        predicates:
+        - Path=/api/oauth/**
+        filters:
+        - name: Hystrix
+          args:
+            name: fallbackCommand
+            fallbackUri: forward:/fallback/message
+      - id: bookservice
+        uri: lb://BOOKSERVICE
+        predicates:
+        - Path=/api/book/**
+        filters:
+        - name: Hystrix
+          args:
+            name: fallbackCommand
+            fallbackUri: forward:/fallback/message
+      - id: studentService
+        uri: lb://STUDENTSERVICE
+        predicates:
+        - Path=/api/student/**
+        filters:
+        - name: Hystrix
+          args:
+            name: fallbackCommand
+            fallbackUri: forward:/fallback/message
+ 
+
