@@ -9,7 +9,7 @@ spring-cloud-starter-oauth2 (for authenticating with the Oauth Server) <br>
 <b>Eurek Server(8761) APi Gateway(8083)</b> <br>
 for registry and discovery and routing
 
-student-service(8071) and book service(8081) <br>
+<b>student-service(8071) and book service(8081)<b> <br>
 spring-cloud-starter-security (for security) <br>
 spring-cloud-starter-oauth2 (for authenticating with the Oauth Server) <br>
 
