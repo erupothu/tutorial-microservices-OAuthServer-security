@@ -1,0 +1,173 @@
+2020-07-03 00:01:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-07-03 00:06:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-07-03 00:06:33 [hz.hazelcast-instance.HealthMonitor] INFO  c.h.i.diagnostics.HealthMonitor - [192.168.0.10]:5702 [dev] [3.12.6] processors=4, physical.memory.total=19.4G, physical.memory.free=463.7M, swap.space.total=2.0G, swap.space.free=2.0G, heap.memory.used=260.0M, heap.memory.free=744.0M, heap.memory.total=1004.0M, heap.memory.max=4.3G, heap.memory.used/total=25.89%, heap.memory.used/max=5.89%, minor.gc.count=0, minor.gc.time=0ms, major.gc.count=0, major.gc.time=0ms, load.process=0.00%, load.system=0.00%, load.systemAverage=4.39, thread.count=68, thread.peakCount=69, cluster.timeDiff=-1, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=144, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=1, client.connection.count=0, connection.count=1
+2020-07-03 00:11:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-07-03 00:16:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-07-03 00:17:37 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application STUDENTSERVICE with eureka with status DOWN
+2020-07-03 00:17:37 [SpringContextShutdownHook] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1593715657971, current=DOWN, previous=UP]
+2020-07-03 00:17:37 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_STUDENTSERVICE/192.168.0.10:studentservice:8071: registering service...
+2020-07-03 00:17:38 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_STUDENTSERVICE/192.168.0.10:studentservice:8071 - registration status: 204
+2020-07-03 00:17:38 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-03 00:17:40 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-03 02:30:20 [main] INFO  com.tutorial.StudentApp - No active profile set, falling back to default profiles: default
+2020-07-03 02:30:22 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-03 02:30:22 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 261ms. Found 1 JPA repository interfaces.
+2020-07-03 02:30:22 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-07-03 02:30:23 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=69317daa-8861-3637-be85-9aaa1608f577
+2020-07-03 02:30:23 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-03 02:30:23 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$TraceOAuthConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$TraceOAuthConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-03 02:30:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8071 (http)
+2020-07-03 02:30:24 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 02:30:24 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-07-03 02:30:24 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-03 02:30:24 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.3].
+2020-07-03 02:30:24 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-03 02:30:24 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-03 02:30:24 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2020-07-03 02:30:24 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 02:30:24 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4359 ms
+2020-07-03 02:30:25 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-07-03 02:30:25 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-03 02:30:25 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6ef4297d
+2020-07-03 02:30:25 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-07-03 02:30:25 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-07-03 02:30:26 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/mydb'
+2020-07-03 02:30:26 [main] INFO  com.hazelcast.instance.AddressPicker - [LOCAL] [dev] [3.12.6] Prefer IPv4 stack is true, prefer IPv6 addresses is false
+2020-07-03 02:30:26 [main] INFO  com.hazelcast.instance.AddressPicker - [LOCAL] [dev] [3.12.6] Picked [192.168.0.10]:5702, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5702], bind any local is true
+2020-07-03 02:30:26 [main] INFO  com.hazelcast.system - [192.168.0.10]:5702 [dev] [3.12.6] Hazelcast 3.12.6 (20200130 - be02cc5) starting at [192.168.0.10]:5702
+2020-07-03 02:30:26 [main] INFO  com.hazelcast.system - [192.168.0.10]:5702 [dev] [3.12.6] Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.
+2020-07-03 02:30:27 [main] INFO  c.h.s.i.o.impl.BackpressureRegulator - [192.168.0.10]:5702 [dev] [3.12.6] Backpressure is disabled
+2020-07-03 02:30:28 [main] INFO  com.hazelcast.instance.Node - [192.168.0.10]:5702 [dev] [3.12.6] Creating MulticastJoiner
+2020-07-03 02:30:28 [main] INFO  c.h.s.i.o.impl.OperationExecutorImpl - [192.168.0.10]:5702 [dev] [3.12.6] Starting 4 partition threads and 3 generic threads (1 dedicated for priority tasks)
+2020-07-03 02:30:28 [main] INFO  c.h.internal.diagnostics.Diagnostics - [192.168.0.10]:5702 [dev] [3.12.6] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2020-07-03 02:30:28 [main] INFO  com.hazelcast.core.LifecycleService - [192.168.0.10]:5702 [dev] [3.12.6] [192.168.0.10]:5702 is STARTING
+2020-07-03 02:30:28 [main] INFO  c.h.i.cluster.impl.MulticastJoiner - [192.168.0.10]:5702 [dev] [3.12.6] Trying to join to discovered node: [192.168.0.10]:5701
+2020-07-03 02:30:28 [hz.hazelcast-instance.cached.thread-2] INFO  com.hazelcast.nio.tcp.TcpIpConnector - [192.168.0.10]:5702 [dev] [3.12.6] Connecting to /192.168.0.10:5701, timeout: 10000, bind-any: true
+2020-07-03 02:30:28 [hz.hazelcast-instance.IO.thread-in-0] INFO  c.hazelcast.nio.tcp.TcpIpConnection - [192.168.0.10]:5702 [dev] [3.12.6] Initialized new cluster connection between /192.168.0.10:37429 and /192.168.0.10:5701
+2020-07-03 02:30:34 [hz.hazelcast-instance.priority-generic-operation.thread-0] INFO  c.h.internal.cluster.ClusterService - [192.168.0.10]:5702 [dev] [3.12.6] 
+
+Members {size:2, ver:2} [
+	Member [192.168.0.10]:5701 - 84728712-b828-4e8f-bea1-c1467bb69fce
+	Member [192.168.0.10]:5702 - 6f7c5926-ba09-4eb9-bea2-01bb1fb07cd5 this
+]
+
+2020-07-03 02:30:35 [main] INFO  com.hazelcast.core.LifecycleService - [192.168.0.10]:5702 [dev] [3.12.6] [192.168.0.10]:5702 is STARTED
+2020-07-03 02:30:37 [main] WARN  o.s.c.s.z.ZipkinAutoConfiguration - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@519e0814}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)}]
+2020-07-03 02:30:37 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-03 02:30:37 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-03 02:30:37 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-03 02:30:38 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-03 02:30:39 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-03 02:30:39 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-03 02:30:40 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-03 02:30:42 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-07-03 02:30:42 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-03 02:30:42 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-03 02:30:45 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 0eac88aa-2a42-4f31-9115-c2c94528adf2
+
+2020-07-03 02:30:45 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@154b5e43, org.springframework.security.web.context.SecurityContextPersistenceFilter@64d11323, org.springframework.security.web.header.HeaderWriterFilter@2e643209, org.springframework.security.web.csrf.CsrfFilter@61ad4b83, org.springframework.security.web.authentication.logout.LogoutFilter@13b85e31, org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticationProcessingFilter@ac41f1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50235133, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@346dec80, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35ca8ec3, org.springframework.security.web.session.SessionManagementFilter@50242325, org.springframework.security.web.access.ExceptionTranslationFilter@1544bf85, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1603d1fb]
+2020-07-03 02:30:46 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-07-03 02:30:46 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-07-03 02:30:46 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-03 02:30:46 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2020-07-03 02:30:46 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2020-07-03 02:30:46 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2020-07-03 02:30:48 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2020-07-03 02:30:48 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2020-07-03 02:30:48 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2020-07-03 02:30:48 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-07-03 02:30:49 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2020-07-03 02:30:49 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2020-07-03 02:30:49 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2020-07-03 02:30:49 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2020-07-03 02:30:49 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2020-07-03 02:30:49 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2020-07-03 02:30:49 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2020-07-03 02:30:49 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2020-07-03 02:30:49 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 1
+2020-07-03 02:30:49 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-03 02:30:49 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1593723649288 with initial instances count: 3
+2020-07-03 02:30:49 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application STUDENTSERVICE with eureka with status UP
+2020-07-03 02:30:49 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1593723649306, current=UP, previous=STARTING]
+2020-07-03 02:30:49 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_STUDENTSERVICE/192.168.0.10:studentservice:8071: registering service...
+2020-07-03 02:30:49 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_STUDENTSERVICE/192.168.0.10:studentservice:8071 - registration status: 204
+2020-07-03 02:30:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8071 (http) with context path ''
+2020-07-03 02:30:49 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8071
+2020-07-03 02:30:49 [main] INFO  com.tutorial.StudentApp - Started StudentApp in 30.948 seconds (JVM running for 31.772)
+2020-07-03 02:31:16 [http-nio-8071-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-03 02:31:16 [http-nio-8071-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-03 02:31:16 [http-nio-8071-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 44 ms
+2020-07-03 02:31:17 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@519e0814}] WARN  z.r.AsyncReporter$BoundedAsyncReporter - Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2020-07-03 02:31:17 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@519e0814}] WARN  z.r.AsyncReporter$BoundedAsyncReporter - Dropped 2 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused))
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:748) ~[spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228) ~[spring-cloud-sleuth-zipkin-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641) ~[spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129) ~[spring-cloud-sleuth-zipkin-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142) ~[spring-cloud-sleuth-zipkin-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132) ~[spring-cloud-sleuth-zipkin-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at zipkin2.Call$Base.execute(Call.java:380) ~[zipkin-2.19.0.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:285) ~[zipkin-reporter-2.11.0.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:354) [zipkin-reporter-2.11.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_252]
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_252]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_252]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_252]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_252]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_252]
+	at java.net.Socket.connect(Socket.java:607) ~[na:1.8.0_252]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.8.0_252]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_252]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_252]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_252]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_252]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_252]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226) ~[na:1.8.0_252]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162) ~[na:1.8.0_252]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056) ~[na:1.8.0_252]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990) ~[na:1.8.0_252]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739) ~[spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	... 9 common frames omitted
+2020-07-03 02:35:49 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-07-03 02:40:49 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-07-03 02:43:04 [http-nio-8071-exec-9] INFO  c.tutorial.config.CommonInterceptor - BookInterceptor - preHandle
+2020-07-03 02:43:04 [http-nio-8071-exec-9] INFO  c.tutorial.config.CommonInterceptor - BookInterceptor - postHandle
+2020-07-03 02:43:04 [http-nio-8071-exec-9] INFO  c.tutorial.config.CommonInterceptor - BookInterceptor - afterCompletion
+2020-07-03 02:43:04 [http-nio-8071-exec-10] INFO  c.tutorial.config.CommonInterceptor - BookInterceptor - preHandle
+2020-07-03 02:43:04 [http-nio-8071-exec-10] INFO  c.tutorial.config.CommonInterceptor - BookInterceptor - postHandle
+2020-07-03 02:43:04 [http-nio-8071-exec-10] INFO  c.tutorial.config.CommonInterceptor - BookInterceptor - afterCompletion
+2020-07-03 02:43:04 [http-nio-8071-exec-10] INFO  c.tutorial.config.CommonInterceptor - BookInterceptor - preHandle
+2020-07-03 02:43:04 [http-nio-8071-exec-10] INFO  c.tutorial.config.CommonInterceptor - BookInterceptor - postHandle
+2020-07-03 02:43:04 [http-nio-8071-exec-10] INFO  c.tutorial.config.CommonInterceptor - BookInterceptor - afterCompletion
+2020-07-03 02:43:17 [http-nio-8071-exec-2] INFO  c.tutorial.config.CommonInterceptor - BookInterceptor - preHandle
+2020-07-03 02:43:17 [http-nio-8071-exec-2] INFO  c.tutorial.config.CommonInterceptor - BookInterceptor - postHandle
+2020-07-03 02:43:17 [http-nio-8071-exec-2] INFO  c.tutorial.config.CommonInterceptor - BookInterceptor - afterCompletion
+2020-07-03 02:44:36 [hz.hazelcast-instance.IO.thread-in-0] INFO  c.hazelcast.nio.tcp.TcpIpConnection - [192.168.0.10]:5702 [dev] [3.12.6] Connection[id=1, /192.168.0.10:37429->/192.168.0.10:5701, qualifier=null, endpoint=[192.168.0.10]:5701, alive=false, type=MEMBER] closed. Reason: Connection closed by the other side
+2020-07-03 02:44:36 [hz.hazelcast-instance.cached.thread-5] INFO  com.hazelcast.nio.tcp.TcpIpConnector - [192.168.0.10]:5702 [dev] [3.12.6] Connecting to /192.168.0.10:5701, timeout: 10000, bind-any: true
+2020-07-03 02:44:36 [hz.hazelcast-instance.cached.thread-5] INFO  com.hazelcast.nio.tcp.TcpIpConnector - [192.168.0.10]:5702 [dev] [3.12.6] Could not connect to: /192.168.0.10:5701. Reason: SocketException[Connection refused to address /192.168.0.10:5701]
+2020-07-03 02:44:36 [hz.hazelcast-instance.cached.thread-5] INFO  com.hazelcast.nio.tcp.TcpIpConnector - [192.168.0.10]:5702 [dev] [3.12.6] Connecting to /192.168.0.10:5701, timeout: 10000, bind-any: true
+2020-07-03 02:44:36 [hz.hazelcast-instance.cached.thread-5] INFO  com.hazelcast.nio.tcp.TcpIpConnector - [192.168.0.10]:5702 [dev] [3.12.6] Could not connect to: /192.168.0.10:5701. Reason: SocketException[Connection refused to address /192.168.0.10:5701]
+2020-07-03 02:44:36 [hz.hazelcast-instance.cached.thread-5] INFO  com.hazelcast.nio.tcp.TcpIpConnector - [192.168.0.10]:5702 [dev] [3.12.6] Connecting to /192.168.0.10:5701, timeout: 10000, bind-any: true
+2020-07-03 02:44:36 [hz.hazelcast-instance.cached.thread-5] INFO  com.hazelcast.nio.tcp.TcpIpConnector - [192.168.0.10]:5702 [dev] [3.12.6] Could not connect to: /192.168.0.10:5701. Reason: SocketException[Connection refused to address /192.168.0.10:5701]
+2020-07-03 02:44:36 [hz.hazelcast-instance.cached.thread-5] INFO  com.hazelcast.nio.tcp.TcpIpConnector - [192.168.0.10]:5702 [dev] [3.12.6] Connecting to /192.168.0.10:5701, timeout: 10000, bind-any: true
+2020-07-03 02:44:36 [hz.hazelcast-instance.cached.thread-5] INFO  com.hazelcast.nio.tcp.TcpIpConnector - [192.168.0.10]:5702 [dev] [3.12.6] Could not connect to: /192.168.0.10:5701. Reason: SocketException[Connection refused to address /192.168.0.10:5701]
+2020-07-03 02:44:36 [hz.hazelcast-instance.cached.thread-5] WARN  c.h.n.t.TcpIpConnectionErrorHandler - [192.168.0.10]:5702 [dev] [3.12.6] Removing connection to endpoint [192.168.0.10]:5701 Cause => java.net.SocketException {Connection refused to address /192.168.0.10:5701}, Error-Count: 5
+2020-07-03 02:44:36 [hz.hazelcast-instance.cached.thread-5] WARN  c.h.i.cluster.impl.MembershipManager - [192.168.0.10]:5702 [dev] [3.12.6] Member [192.168.0.10]:5701 - 84728712-b828-4e8f-bea1-c1467bb69fce is suspected to be dead for reason: No connection
+2020-07-03 02:44:36 [hz.hazelcast-instance.cached.thread-5] INFO  c.h.i.cluster.impl.MembershipManager - [192.168.0.10]:5702 [dev] [3.12.6] Starting mastership claim process...
+2020-07-03 02:44:36 [hz.hazelcast-instance.cached.thread-5] INFO  c.h.i.cluster.impl.MembershipManager - [192.168.0.10]:5702 [dev] [3.12.6] Local MembersView{version=2, members=[MemberInfo{address=[192.168.0.10]:5701, uuid=84728712-b828-4e8f-bea1-c1467bb69fce, liteMember=false, memberListJoinVersion=1}, MemberInfo{address=[192.168.0.10]:5702, uuid=6f7c5926-ba09-4eb9-bea2-01bb1fb07cd5, liteMember=false, memberListJoinVersion=2}]} with suspected members: [[192.168.0.10]:5701] and initial addresses to ask: []
+2020-07-03 02:44:36 [hz.hazelcast-instance.cached.thread-3] INFO  c.h.internal.cluster.ClusterService - [192.168.0.10]:5702 [dev] [3.12.6] 
+
+Members {size:1, ver:3} [
+	Member [192.168.0.10]:5702 - 6f7c5926-ba09-4eb9-bea2-01bb1fb07cd5 this
+]
+
+2020-07-03 02:44:36 [hz.hazelcast-instance.cached.thread-3] INFO  c.h.i.cluster.impl.MembershipManager - [192.168.0.10]:5702 [dev] [3.12.6] Mastership is claimed with: MembersView{version=3, members=[MemberInfo{address=[192.168.0.10]:5702, uuid=6f7c5926-ba09-4eb9-bea2-01bb1fb07cd5, liteMember=false, memberListJoinVersion=2}]}
+2020-07-03 02:44:36 [hz.hazelcast-instance.cached.thread-5] INFO  c.h.t.TransactionManagerService - [192.168.0.10]:5702 [dev] [3.12.6] Committing/rolling-back live transactions of [192.168.0.10]:5701, UUID: 84728712-b828-4e8f-bea1-c1467bb69fce
+2020-07-03 02:44:36 [hz.hazelcast-instance.migration] INFO  c.h.i.p.InternalPartitionService - [192.168.0.10]:5702 [dev] [3.12.6] Fetching most recent partition table! my version: 0
+2020-07-03 02:44:36 [hz.hazelcast-instance.migration] INFO  c.h.i.p.InternalPartitionService - [192.168.0.10]:5702 [dev] [3.12.6] Most recent partition table version: 0
